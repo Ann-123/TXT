@@ -1,1 +1,17 @@
+Bug report:
 
+short description: Files outside SOURCE_DIR are processed;
+
+description: The application handles random files outside the SOURCE_DIR directory;
+
+steps:
+    1. place files outside SOURS_DIR;
+    2. place files in SOURS_DIR;
+    3. launch the application.
+    
+  expected result: only those files that are in SOURCE_DIR are processed;
+  
+  actual result: processed files that are not only in SOURCE_DIR;
+  
+  severity: major,
+  priority: medium.
