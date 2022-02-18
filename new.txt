@@ -1,0 +1,4 @@
+Name - Ann,
+Age - 18,
+Number of pets - 1,
+Desired Salary - 1$ million.
